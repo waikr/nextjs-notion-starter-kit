@@ -1,10 +1,5 @@
 
 {
-  [params.utteranc]
-  enable = false
-  repo = "liangyuanpeng/liangyuanpeng.github.io" ##换成自己得
-  issueTerm = "title"
-  theme = "github-light"
   "compilerOptions": {
     "target": "es2016",
     "lib": ["dom", "dom.iterable", "esnext"],
