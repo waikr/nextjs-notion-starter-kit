@@ -26,6 +26,14 @@ export const Footer: React.FC<{
 
   return (
     <footer className={styles.footer}>
+      
+     <script src="https://utteranc.es/client.js"
+repo="waikr/nextjs-notion-starter-kit"
+issue-term="title"
+theme="github-light"
+crossorigin="anonymous"
+async>
+</script>
       <div className={styles.copyright}>Copyright 2021 {config.author}</div>
 
       {hasMounted ? (
